@@ -1,0 +1,38 @@
+{
+    "name": "test-authentication",
+    "version": "1.0.0",
+    "description": "Test repo for authentication through express using JWT",
+    "main": "./build/index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node ./build/index.js",
+        "build": "tsc",
+        "dev": "nodemon ./src/index.ts"
+    },
+    "keywords": [
+        "authentication"
+    ],
+    "author": "Tom Johnsen",
+    "license": "ISC",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/tom-johnsen/test-authentication.git"
+    },
+    "bugs": {
+        "url": "https://github.com/tom-johnsen/test-authentication/issues"
+    },
+    "homepage": "https://github.com/tom-johnsen/test-authentication#readme",
+    "dependencies": {
+        "express": "^4.16.3",
+        "helmet": "^5.1.0",
+        "http-errors": "^2.0.0",
+        "jsonwebtoken": "^8.5.1",
+        "mongoose": "^5.0.0"
+    },
+    "devDependencies": {
+        "@types/express": "^4.17.13",
+        "@types/http-errors": "^1.8.2",
+        "@types/jsonwebtoken": "^8.5.8",
+        "dotenv": "^16.0.1"
+    }
+}
